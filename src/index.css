@@ -16,7 +16,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /*display: flex;*/
+  justify-content: center;
 }
 
 a {
@@ -30,11 +30,12 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  margin: auto;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 320 px;
   min-height: 100vh;
+  max-width: 100%;
 }
 
 h1 {
